@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic-Tac-Toe</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Tic-Tac-Toe</h1>
+        </header>
+
+        <div class="two_main_columns">
+            <section class="left_column">
+                <p>Choose 1 or 2 players</p>
+                <ul>
+                    <li><button id="playerOne" class="playerbutton">1 Player</button></li>
+                    <li><button id="playerTwo" class="playerbutton">2 Player</button></li>
+                </ul>
+
+                <table>
+                    <tr>
+                        <th>Player</th>
+                        <th>Wins</th>
+                        <th>Ties</th>
+                        <th>Losses</th>
+                    </tr>
+                    <tr>
+                        <th>Player 1</th>
+                        <th id="player1Wins"></th>
+                        <th id="player1Ties"></th>
+                        <th id="player1Losses"></th>
+                    </tr>
+                    <tr>
+                        <th>Player 2</th>
+                        <th id="player2Wins"></th>
+                        <th id="player2Ties"></th>
+                        <th id="player2Losses"></th>
+                    </tr>
+                    <tr>
+                        <th>Computer</th>
+                        <th id="computerWins"></th>
+                        <th id="computerTies"></th>
+                        <th id="computerLosses"></th>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="right_column">
+                <section class="grid_cont">
+                    <button id="topleft" class="position" value="topleft"></button>
+                    <button id="topmiddle" class="position" value="topmiddle"></button>
+                    <button id="topright" class="position" value="topright"></button>
+                    <button id="middleleft" class="position" value="middleleft"></button>
+                    <button id="middlemiddle" class="position" value="middlemiddle"></button>
+                    <button id="middleright" class="position" value="middleright"></button>
+                    <button id="bottomleft" class="position" value="bottomleft"></button>
+                    <button id="bottommiddle" class="position" value="bottommiddle"></button>
+                    <button id="bottomright" class="position" value="bottomright"></button>  
+                </section>
+
+                <p id="turn">Turn: Player 1</p>
+                <p id="wrong">Chose another one</p>
+                
+
+            </section>
+
+            <p id="winner" class="winner">Player 1 wins</p>
+        </div>
+
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+
+
+
+</html>
