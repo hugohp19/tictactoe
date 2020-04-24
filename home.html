@@ -12,12 +12,12 @@
 
         <div class="two_main_columns">
             <section class="left_column">
-                <p>Choose 1 or 2 players</p>
+                <p>Choose Players</p>
                 <ul>
                     <li><button id="playerOne" class="playerbutton">1 Player</button></li>
                     <li><button id="playerTwo" class="playerbutton">2 Player</button></li>
                 </ul>
-
+                <br><br>
                 <table>
                     <tr>
                         <th>Player</th>
@@ -26,27 +26,30 @@
                         <th>Losses</th>
                     </tr>
                     <tr>
-                        <th>Player 1</th>
-                        <th id="player1Wins"></th>
-                        <th id="player1Ties"></th>
-                        <th id="player1Losses"></th>
+                        <td>Player 1</td>
+                        <td id="player1Wins"></td>
+                        <td id="player1Ties"></td>
+                        <td id="player1Losses"></td>
                     </tr>
                     <tr>
-                        <th>Player 2</th>
-                        <th id="player2Wins"></th>
-                        <th id="player2Ties"></th>
-                        <th id="player2Losses"></th>
+                        <td>Player 2</td>
+                        <td id="player2Wins"></td>
+                        <td id="player2Ties"></td>
+                        <td id="player2Losses"></td>
                     </tr>
                     <tr>
-                        <th>Computer</th>
-                        <th id="computerWins"></th>
-                        <th id="computerTies"></th>
-                        <th id="computerLosses"></th>
+                        <td>Computer</td>
+                        <td id="computerWins"></td>
+                        <td id="computerTies"></td>
+                        <td id="computerLosses"></td>
                     </tr>
                 </table>
+                <br><br><br><br><br><br>
+                <button id="reset" class="resetbutton" value="reset">Reset</button>
             </section>
 
             <section class="right_column">
+                <iframe id="overlaygif" src="https://giphy.com/embed/1PMVNNKVIL8Ig" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 <section class="grid_cont">
                     <button id="topleft" class="position" value="topleft"></button>
                     <button id="topmiddle" class="position" value="topmiddle"></button>
@@ -58,16 +61,14 @@
                     <button id="bottommiddle" class="position" value="bottommiddle"></button>
                     <button id="bottomright" class="position" value="bottomright"></button>  
                 </section>
-
+                <button id="closeGif">Close Gif</button>
                 <p id="turn">Turn: Player 1</p>
-                <p id="wrong">Chose another one</p>
+                <p id="wrong">Chose another one</p>  
                 
 
             </section>
-
-            <p id="winner" class="winner">Player 1 wins</p>
         </div>
-
+        <p id="winner" class="winner">Player 1 wins</p>
         <script type="text/javascript" src="./script.js"></script>
     </body>
 
