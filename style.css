@@ -30,7 +30,6 @@ body{
     width: 270px;
     grid-column:270px;
     border-style: inset;
-    background-color: rgb(238, 236, 236);
 }
 
 .right_column{
@@ -136,7 +135,6 @@ th {
     text-align: center; 
     background-color: red;
     color: white;
-
 }
 
 td {
