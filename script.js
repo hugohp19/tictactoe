@@ -231,7 +231,7 @@ function selected(buttonselected){
                 checkwinner('O');
                 player = 1;
                 turn.innerHTML = 'Player 1';
-                itsaTie()
+                itsaTie();
             };
         } else {
                 arrayWinner = arrayX;
